@@ -52,9 +52,9 @@ data.then(function(res) {
 function maxlength(text) {
     // console.log(text.length)
     // console.log(text.substring(0,10))
-    if (text.length>500)
+    if (text.length>430)
     {   console.log(1);
-            return text.substring(0,500)+ '...';
+            return text.substring(0,430)+ ' ...';
     }
     else {
         console.log(2)

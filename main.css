@@ -10,10 +10,17 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
+.formUpdate {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 .containerItem {
     width: 95%;
@@ -24,8 +31,17 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.containerItemDetail {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(175, 175, 175); */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .item {
+    margin-top: 100px;
     width: 350px;
     height: 450px;
     /* background-color: rgb(255, 163, 163); */
@@ -177,4 +193,27 @@ body {
         display: none;
     }
 
+}
+
+.btnn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.update {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(133, 133, 133);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.delete {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(133, 133, 133);
+    border-radius: 20px;
+    text-align: center;
 }
